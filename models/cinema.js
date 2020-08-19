@@ -9,6 +9,7 @@ Cinema.prototype.getTitles = function () {
   });
   return titles;
 };
+// should have used map above - read into map
 
 Cinema.prototype.findByTitle = function (title) {
   const foundFilm = this.films.find((film) => {
